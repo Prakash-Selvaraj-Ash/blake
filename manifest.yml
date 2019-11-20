@@ -1,6 +1,7 @@
 applications:
   - path: .
     name: nearyu
+    command: npm run start:prod
     environment_json: {}
     memory: 256M
     instances: 1

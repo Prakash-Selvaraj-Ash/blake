@@ -1,1 +1,8 @@
-disk_quota: 256M
+applications:
+  - path: .
+    name: nearyu
+    environment_json: {}
+    memory: 256M
+    instances: 1
+    disk_quota: 1024M
+    services: []
